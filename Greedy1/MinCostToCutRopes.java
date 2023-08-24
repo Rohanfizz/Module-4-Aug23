@@ -9,7 +9,7 @@ class Solution
 		PriorityQueue<Long> pq  = new PriorityQueue<>();
 		for(long x: arr) pq.add(x);//push all ropes in pq
 		long cost = 0;
-		while(pq.size() > 1){
+		while(pq.size() > 1){ //(n) * (logn)
 			long mini = pq.remove();
 			long mini2 = pq.remove();
 			cost += mini + mini2;
