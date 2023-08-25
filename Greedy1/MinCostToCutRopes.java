@@ -19,8 +19,7 @@ class Solution
     }
 }
 
-class Main
-{
+class Main{
     static class FastReader{ 
         BufferedReader br; 
         StringTokenizer st; 
